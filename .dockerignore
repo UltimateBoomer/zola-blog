@@ -1,0 +1,33 @@
+# Git files
+.git
+.gitignore
+.gitmodules
+
+# GitHub Actions
+.github
+
+# Build output (will be generated in container)
+public/
+
+# Documentation
+README.md
+LICENSE
+
+# Development files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Node modules (if any)
+node_modules/
+
+# Zola development files
+.zola_cache/

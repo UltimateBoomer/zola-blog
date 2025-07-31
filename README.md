@@ -104,6 +104,37 @@ The generated site will be in the `public/` directory.
 
 This site is ready to deploy on various platforms:
 
+### Container Deployment (Docker)
+
+A GitHub workflow automatically builds and pushes container images to GitHub Container Registry (GHCR). The container uses nginx to serve the static site.
+
+#### Using the Pre-built Container
+
+Pull and run the latest container:
+
+```bash
+docker run -p 8080:80 ghcr.io/ultimateboomer/zola-blog:latest
+```
+
+Visit `http://localhost:8080` to view the site.
+
+#### Building Locally
+
+Build the container yourself:
+
+```bash
+docker build -t zola-blog .
+docker run -p 8080:80 zola-blog
+```
+
+#### Container Features
+
+- Multi-stage build for optimal image size
+- Nginx optimized for static site serving
+- Support for multiple architectures (amd64, arm64)
+- Automatic builds on push to main branch
+- Tagged releases for version management
+
 ### Netlify
 1. Connect your GitHub repository
 2. Set build command to `zola build`
