@@ -1,7 +1,6 @@
 # Git files
 .git
 .gitignore
-.gitmodules
 
 # GitHub Actions
 .github
