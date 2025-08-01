@@ -4,29 +4,25 @@ A personal blog and portfolio website built with [Zola](https://www.getzola.org/
 
 ## Features
 
-- 📝 Technical blog posts and articles
-- 🚀 Project portfolio with detailed descriptions
-- 🎨 Clean, responsive design using the Linkita theme
-- 🔍 Search functionality (when enabled)
-- ⚡ Fast loading times with static generation
+- Technical blog posts and articles
+- Project portfolio with detailed descriptions
+- Clean, responsive design using the Linkita theme
+- Search functionality (when enabled)
+- Very fast static generation
+- Tiny page size
 
 ## Tech Stack
 
 - **Static Site Generator**: [Zola](https://www.getzola.org/)
 - **Theme**: [Linkita](https://github.com/Diegomangasco/linkita)
-- **Deployment**: Ready for Netlify, Vercel, or GitHub Pages
+- **Build**: Github Actions
+- **Deployment**: Cloudflare Pages
 
-## Quick Start
-
-### Prerequisites
-
-- [Zola](https://www.getzola.org/documentation/getting-started/installation/) installed on your system
-
-### Local Development
+## Local Development
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone <repo-url>
 cd zola-blog
 ```
 
@@ -44,31 +40,13 @@ zola serve
 
 The site will automatically reload when you make changes to the content or templates.
 
-## Project Structure
-
-```
-zola-blog/
-├── content/          # Markdown content files
-│   ├── blog/         # Blog posts
-│   ├── pages/        # Static pages (about, projects)
-│   └── _index.md     # Homepage content
-├── static/           # Static assets (images, files)
-├── sass/             # Custom Sass styles
-├── themes/           # Theme files (git submodule)
-├── public/           # Generated site (ignored by git)
-├── config.toml       # Site configuration
-└── README.md         # This file
-```
-
-## Content Management
-
 ### Adding Blog Posts
 
 Create new markdown files in the `content/blog/` directory:
 
 ```markdown
 +++
-title = "Your Post Title"
+title = "Post Title"
 date = 2024-01-01
 description = "Brief description of the post"
 [taxonomies]
@@ -102,63 +80,4 @@ The generated site will be in the `public/` directory.
 
 ## Deployment
 
-This site is ready to deploy on various platforms:
-
-### Container Deployment (Docker)
-
-A GitHub workflow automatically builds and pushes container images to GitHub Container Registry (GHCR). The container uses nginx to serve the static site.
-
-#### Using the Pre-built Container
-
-Pull and run the latest container:
-
-```bash
-docker run -p 8080:80 ghcr.io/ultimateboomer/zola-blog:latest
-```
-
-Visit `http://localhost:8080` to view the site.
-
-#### Building Locally
-
-Build the container yourself:
-
-```bash
-docker build -t zola-blog .
-docker run -p 8080:80 zola-blog
-```
-
-#### Container Features
-
-- Multi-stage build for optimal image size
-- Nginx optimized for static site serving
-- Support for multiple architectures (amd64, arm64)
-- Automatic builds on push to main branch
-- Tagged releases for version management
-
-### Netlify
-1. Connect your GitHub repository
-2. Set build command to `zola build`
-3. Set publish directory to `public`
-
-### Vercel
-1. Import your GitHub repository
-2. Vercel will auto-detect Zola and configure the build
-
-### GitHub Pages
-Use the [Zola GitHub Action](https://github.com/shalzz/zola-deploy-action) for automatic deployment.
-
-## Customization
-
-### Theme Customization
-The Linkita theme can be customized through the `config.toml` file. Refer to the [theme documentation](https://github.com/Diegomangasco/linkita) for available options.
-
-### Custom Styles
-Add custom CSS in the `sass/` directory. Files will be automatically compiled during build.
-
-## Contributing
-
-This is a personal blog, but if you spot any issues or have suggestions, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The site is automatically deployed to Cloudflare Pages when changes are pushed to the main branch.

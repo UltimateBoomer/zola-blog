@@ -9,6 +9,8 @@ build_search_index = false
 
 theme = "linkita"
 
+generate_feeds = true
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -16,6 +18,7 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+comment = true
 
 # Header menu configuration
 menu = [
@@ -23,10 +26,26 @@ menu = [
     { name = "Projects", url = "/projects/" },
 ]
 
-#toc = false
+[extra.style]
+bg_color = "#eff1f5"
+bg_dark_color = "#181825"
 
-[extra.profiles.UltimateBoomer]
+# header_color = "#04a5e5"
+# header_dark_color = "#89dceb"
+
+header_blur = true
+
+[extra.profiles.caohc]
 name = "Steven Cao"
 avatar_url = "icons/github.svg"
 avatar_invert = true
 bio = "Computer Science + AI Specialization @ University of Waterloo"
+social = [
+    { name = "github", url = "https://github.com/UltimateBoomer" },
+    { name = "email", url = "mailto:example@example.com" },
+    { name = "rss", url = "$BASE_URL/atom.xml" },
+]
+
+[extra.footer]
+license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
+copyright = "&copy; $YEAR Haichuan Cao &vert; [CC BY-SA 4.0]($LICENSE_URL)"

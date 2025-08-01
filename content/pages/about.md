@@ -26,9 +26,4 @@ I'm proficient in a diverse range of languages including **C/C++**, **Kotlin**, 
 One of my proudest achievements is creating Minecraft performance and graphics mods that have been downloaded over **15 million times** on CurseForge.
 I've also built various tools including a Vim-like text editor in C++, several CLI applications in Rust and a Lisp-like language interpreter in Java.
 
-## What Drives Me
-
-I'm fascinated by the intersection of performance optimization, user experience, and system design.
-Whether it's about optimizing code, implementing low-level software, or creating platforms many people use, I love solving technical challenges that improve everyday life.
-
 Feel free to check out my [projects on GitHub](https://github.com/UltimateBoomer) or connect with me to discuss technology, AI/ML, software development, or potential collaborations!

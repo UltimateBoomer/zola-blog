@@ -1,0 +1,15 @@
+// Project tasks configuration. See https://zed.dev/docs/tasks for documentation.
+//
+// Example:
+[
+  {
+    "label": "Zola Serve (Development)",
+    "command": "zola",
+    "args": ["serve", "--drafts"]
+  },
+  {
+    "label": "Zola Serve (Production)",
+    "command": "zola",
+    "args": ["serve"]
+  }
+]
