@@ -11,6 +11,21 @@ theme = "linkita"
 
 generate_feeds = true
 
+[[taxonomies]]
+name = "categories"
+feed = true
+paginate_by = 4
+
+[[taxonomies]]
+name = "tags"
+feed = true
+paginate_by = 4
+
+[[taxonomies]]
+name = "authors"
+feed = true
+paginate_by = 4
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola

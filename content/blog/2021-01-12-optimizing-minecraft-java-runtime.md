@@ -1,9 +1,10 @@
 +++
 title = "[Old] Optimizing Minecraft Java Runtime"
 description = "Testing different JREs and configurations for running Minecraft"
-date = "2021-1-12"
+date = "2021-01-12"
 [taxonomies]
-tags = ["minecraft", "jvm", "java"]
+categories = ["Test"]
+tags = ["Minecraft", "JVM", "Java"]
 +++
 
 I tested some ways to optimize Minecraft and improve the default Java Edition setup.
