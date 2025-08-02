@@ -57,7 +57,7 @@ avatar_invert = true
 bio = "Computer Science + AI Specialization @ University of Waterloo"
 social = [
     { name = "github", url = "https://github.com/UltimateBoomer" },
-    { name = "email", url = "mailto:example@example.com" },
+    { name = "email", url = "mailto:s3cao@uwaterloo.ca" },
     { name = "rss", url = "$BASE_URL/atom.xml" },
 ]
 
