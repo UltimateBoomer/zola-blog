@@ -62,5 +62,4 @@ social = [
 ]
 
 [extra.footer]
-license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
-copyright = "&copy; $YEAR Haichuan Cao &vert; [CC BY-SA 4.0]($LICENSE_URL)"
+copyright = "&copy; $YEAR Haichuan Cao"
