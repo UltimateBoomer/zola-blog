@@ -2,6 +2,8 @@
 title = "About me"
 description = ""
 path = "about"
+[extra]
+toc = false
 +++
 
 ## Hello World!

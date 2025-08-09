@@ -1,0 +1,31 @@
+[[project]]
+name = "Smooth Boot"
+desc = "Optimizes Minecraft's threaded performance by reducing executor thread counts and lowering priorities during Minecraft initial loading process. Now superseded by LazyDFU and modern Minecraft optimizations."
+tags = ["minecraft", "mod", "performance"]
+links = [
+    { name = "source", url = "https://github.com/UltimateBoomer/mc-smoothboot" },
+]
+
+[[project]]
+name = "Low Fire"
+desc = "A client-side mod that reduces the visual obstruction of the fire overlay when the player is on fire. The mod utilizes OpenGL functions to adjust the fire texture position and opacity."
+tags = ["minecraft", "mod", "graphics"]
+links = [
+    { name = "source", url = "https://github.com/UltimateBoomer/mc-lowfire" },
+]
+
+[[project]]
+name = "TexTweaks"
+desc = "An graphics enhancement mod that provides control over texture mapping for high-resolution resource packs. Features include texture scaling, enhanced mipmap generation beyond 4x, and customizable LOD bias controls."
+tags = ["minecraft", "mod", "textures"]
+links = [
+    { name = "source", url = "https://github.com/UltimateBoomer/mc-textweaks" },
+]
+
+[[project]]
+name = "ResolutionControl+"
+desc = "A powerful rendering mod that enables custom resolution scaling. This mod allows users to render the game at higher or lower internal resolutions for performance optimization or visual enhancement."
+tags = ["minecraft", "mod", "graphics", "performance"]
+links = [
+    { name = "source", url = "https://github.com/UltimateBoomer/Resolution-Control" },
+]

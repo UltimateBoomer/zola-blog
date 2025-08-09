@@ -1,0 +1,15 @@
+[[project]]
+name = "Wordle-Rust"
+desc = "A terminal-based implementation of the popular word puzzle game built with Rust. The application features a clean CLI interface with colored output for guess feedback, dictionary validation, and configurable word lists."
+tags = ["rust", "game", "terminal"]
+links = [
+    { name = "source", url = "https://github.com/UltimateBoomer/wordle-rust" },
+]
+
+[[project]]
+name = "Rust-Sweeper"
+desc = "A CLI version of the classic Minesweeper game implemented in Rust. The game includes features such as customizable grid sizes, mine counts, and a Vim-style keyboard navigation."
+tags = ["rust", "game", "terminal"]
+links = [
+    { name = "source", url = "https://github.com/UltimateBoomer/rust-sweeper" },
+]

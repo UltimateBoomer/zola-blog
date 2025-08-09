@@ -39,6 +39,7 @@ comment = true
 menu = [
     { name = "About", url = "/about/" },
     { name = "Projects", url = "/projects/" },
+    { name = "Notes", url = "/notes/" },
 ]
 
 [extra.style]

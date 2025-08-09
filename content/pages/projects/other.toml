@@ -1,0 +1,13 @@
+[[project]]
+name = "Vm"
+desc = "A Vim-like text editor implemented in modern C++ with a clean MVC architecture. The editor supports essential Vim motions, text manipulation commands, search functionality, and undo/redo operations."
+tags = ["c++", "text-editor", "terminal"]
+links = [{ name = "source", url = "https://github.com/UltimateBoomer/vm" }]
+
+[[project]]
+name = "Ruse-Interpreter"
+desc = "A full-stack web application featuring a custom Lisp-inspired language interpreter. The backend uses Spring Boot to provide RESTful APIs for code execution, while the React frontend offers a simple code editor."
+tags = ["web", "interpreter", "spring-boot", "react"]
+links = [
+    { name = "source", url = "https://github.com/UltimateBoomer/ruse-interpreter" },
+]

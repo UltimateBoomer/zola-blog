@@ -1,0 +1,15 @@
+[[project]]
+name = "Simple Fractal Viewer"
+desc = "A high-performance fractal visualization application built with modern OpenGL and C++. The renderer uses GPU compute shaders to generate Mandelbrot sets in real-time, featuring interactive zoom and pan controls with arbitrary precision arithmetic."
+tags = ["graphics", "opengl", "c++", "visualization", "gpu"]
+links = [
+    { name = "source", url = "https://github.com/UltimateBoomer/simple-fractal-viewer" },
+]
+
+[[project]]
+name = "Penrose Tile Generator"
+desc = "A mathematical art generator that uses Matplotlib to create Penrose tilings by recursive subdivision."
+tags = ["graphics", "python", "matplotlib"]
+links = [
+    { name = "source", url = "https://github.com/UltimateBoomer/penrose-tiling-generator" },
+]
