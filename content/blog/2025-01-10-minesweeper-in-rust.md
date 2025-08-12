@@ -7,7 +7,7 @@ categories = ["Write-up"]
 tags = ["Rust", "CLI"]
 +++
 
-Last year, I wrote [nsweeper](github.com/UltimateBoomer/nsweeper), a modern C++ Minesweeper clone.
+Last year, I wrote [nsweeper](https://github.com/UltimateBoomer/nsweeper), a modern C++ Minesweeper clone.
 Since I've been learning Rust recently, and I want to work on a simple project for fun, so I decided to rewrite the game in Rust.
 
 ## Design
