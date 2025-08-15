@@ -34,6 +34,7 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 comment = true
+disable_default_favicon = true
 
 # Header menu configuration
 menu = [

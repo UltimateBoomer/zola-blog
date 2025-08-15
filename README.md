@@ -77,7 +77,3 @@ zola build
 ```
 
 The generated site will be in the `public/` directory.
-
-## Deployment
-
-The site is automatically deployed to Cloudflare Pages when changes are pushed to the main branch.
