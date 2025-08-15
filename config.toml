@@ -64,3 +64,17 @@ social = [
 
 [extra.footer]
 copyright = "&copy; $YEAR Haichuan Cao | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+
+[extra.giscus]
+repo = "UltimateBoomer/zola-blog"
+repo_id = "R_kgDOPVKPwg"
+category = "Announcements"
+category_id = "DIC_kwDOPVKPws4CuMpI"
+mapping = "pathname"
+strict = 1
+reactions_enabled = 1
+emit_metadata = 0
+input_position = "top"
+theme = "preferred_color_scheme"
+lang = "en"
+loading = "lazy"
