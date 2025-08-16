@@ -1,7 +1,7 @@
 +++
 title = "Self-hosting a blog site"
 description = "How I self-hosted my website on my own hardware"
-date = "2025-08-12"
+date = "2025-08-15"
 [taxonomies]
 categories = ["Write-up", "Tutorial"]
 tags = ["Self-hosting", "Proxmox", "Caddy", "Cloudflare", "Zola"]
