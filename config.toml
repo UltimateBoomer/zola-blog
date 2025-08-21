@@ -54,8 +54,8 @@ header_blur = true
 
 [extra.profiles.caohc]
 name = "Steven Cao"
-avatar_url = "icons/github.svg"
-avatar_invert = true
+avatar_url = "https://csclub.uwaterloo.ca/~s3cao/blog/icons/avatar.jpg"
+avatar_invert = false
 bio = "Computer Science + AI Specialization @ University of Waterloo"
 social = [
     { name = "github", url = "https://github.com/UltimateBoomer" },
@@ -64,7 +64,7 @@ social = [
 ]
 
 [extra.footer]
-copyright = "&copy; $YEAR Haichuan Cao | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+copyright = "&copy; $YEAR Haichuan Cao | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Self-hosted on Proxmox VE"
 
 [extra.giscus]
 repo = "UltimateBoomer/zola-blog"
