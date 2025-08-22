@@ -64,7 +64,8 @@ social = [
 ]
 
 [extra.footer]
-copyright = "&copy; $YEAR Haichuan Cao | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Self-hosted on Proxmox VE"
+copyright = "&copy; $YEAR Haichuan Cao | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+right_text = "Self-hosted on Proxmox VE"
 
 [extra.giscus]
 repo = "UltimateBoomer/zola-blog"
