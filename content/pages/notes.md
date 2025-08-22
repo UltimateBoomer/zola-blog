@@ -4,6 +4,7 @@ description = ""
 path = "notes"
 [extra]
 toc = false
+comment = false
 +++
 
 Looking for some helpful notes for University of Waterloo courses?

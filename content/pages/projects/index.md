@@ -4,6 +4,7 @@ description = ""
 path = "projects"
 [extra]
 toc = false
+comment = false
 +++
 
 ## Minecraft mods

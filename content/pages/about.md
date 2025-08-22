@@ -4,6 +4,7 @@ description = ""
 path = "about"
 [extra]
 toc = false
+comment = false
 +++
 
 My name is Steven Cao.
