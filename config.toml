@@ -45,10 +45,10 @@ menu = [
 
 [extra.style]
 bg_color = "#eff1f5"
-bg_dark_color = "#181825"
+bg_dark_color = "#11111b"
 
-# header_color = "#04a5e5"
-# header_dark_color = "#89dceb"
+header_color = "#eff1f57f"
+header_dark_color = "#11111b7f"
 
 header_blur = true
 
