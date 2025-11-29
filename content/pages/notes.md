@@ -20,3 +20,4 @@ I have compiled a collection of my own notes and cheatsheets for various CS, ECE
 | ECE 493 | Multi-Agent Systems | [Note](https://csclub.uwaterloo.ca/~s3cao/course-notes/ece493/notes.pdf) | [Cheatsheet](https://csclub.uwaterloo.ca/~s3cao/course-notes/ece493/sheet.pdf) |
 | MATH 235 | Linear Algebra | - | [Cheatsheet](https://csclub.uwaterloo.ca/~s3cao/course-notes/math235/sheet.pdf) |
 | MATH 237 | Multivariable Calculus | - | [Cheatsheet](https://csclub.uwaterloo.ca/~s3cao/course-notes/math237/sheet.pdf) |
+| PMATH 347 | Groups and Rings | [Note](https://csclub.uwaterloo.ca/~s3cao/course-notes/pmath347/notes.pdf) | - |
