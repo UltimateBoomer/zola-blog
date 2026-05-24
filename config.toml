@@ -1,5 +1,6 @@
 # The URL the site will be built for
 base_url = "https://caohc.me"
+title = "Steven's Blog"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -7,7 +8,7 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-theme = "linkita"
+theme = "kita"
 
 generate_feeds = true
 
@@ -29,7 +30,9 @@ paginate_by = 4
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
+
+[markdown.highlighting]
+theme = "solarized-dark"
 
 [extra]
 # Put all your custom variables here
@@ -38,9 +41,9 @@ disable_default_favicon = true
 
 # Header menu configuration
 menu = [
-    { name = "About", url = "/about/" },
-    { name = "Projects", url = "/projects/" },
-    { name = "Notes", url = "/notes/" },
+  { name = "About", url = "/about/" },
+  { name = "Projects", url = "/projects/" },
+  { name = "Notes", url = "/notes/" },
 ]
 
 [extra.style]
@@ -52,15 +55,15 @@ header_dark_color = "#11111b7f"
 
 header_blur = true
 
-[extra.profiles.caohc]
+[extra.profile]
 name = "Steven Cao"
-avatar_url = "https://csclub.uwaterloo.ca/~s3cao/blog/icons/avatar.jpg"
+avatar_url = "icons/avatar.jpg"
 avatar_invert = false
 bio = "Computer Science + AI Specialization @ University of Waterloo"
 social = [
-    { name = "github", url = "https://github.com/UltimateBoomer" },
-    { name = "email", url = "mailto:s3cao@uwaterloo.ca" },
-    { name = "rss", url = "$BASE_URL/atom.xml" },
+  { name = "github", url = "https://github.com/UltimateBoomer" },
+  { name = "email", url = "mailto:s3cao@uwaterloo.ca" },
+  { name = "rss", url = "$BASE_URL/atom.xml" },
 ]
 
 [extra.footer]
