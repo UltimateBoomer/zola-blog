@@ -1,7 +1,7 @@
 +++
 title = "My Rocscience co-op project. Part 1: Turning Linux into Windows"
 description = "How I built an entire container architecture for running Rocscience software on ECS"
-date = "2025-08-15"
+date = "2026-05-24"
 [taxonomies]
 categories = ["Write-up"]
 tags = ["Linux", "Docker", "Cloud", "AWS", "ECS", "Wine"]
