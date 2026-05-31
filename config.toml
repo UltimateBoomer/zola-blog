@@ -67,7 +67,7 @@ social = [
 ]
 
 [extra.footer]
-copyright = "&copy; $YEAR Haichuan Cao | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+copyright = "&copy; $YEAR Haichuan Cao"
 
 [extra.giscus]
 repo = "UltimateBoomer/zola-blog"
