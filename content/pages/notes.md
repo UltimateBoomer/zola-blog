@@ -7,9 +7,7 @@ toc = false
 comment = false
 +++
 
-Looking for some helpful notes for University of Waterloo courses?
-You've come to the right place!
-I have compiled a collection of my own notes and cheatsheets for various CS, ECE and math courses I've taken.
+A collection of my own notes and cheatsheets for various CS, ECE and math courses I've taken.
 
 | Course | Name | Note | Cheatsheet |
 |--------|------|------|------------|
