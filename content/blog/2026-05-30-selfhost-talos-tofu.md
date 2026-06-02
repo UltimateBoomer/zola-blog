@@ -1,8 +1,7 @@
 +++
 title = "Self-hosting apps on Kubernetes with OpenTofu"
 description = "How I self-hosted a complete suite of apps on Kubernetes using a "
-date = "2026-05-30"
-draft = true
+date = "2026-06-01"
 [taxonomies]
 categories = ["Write-up"]
 tags = ["Proxmox", "OpenTofu", "Kubernetes", "Self-hosting"]
@@ -11,7 +10,7 @@ tags = ["Proxmox", "OpenTofu", "Kubernetes", "Self-hosting"]
 Like many others, I first began self hosting on Proxmox using [Community Scripts](https://community-scripts.org/scripts).
 These scripts were very easy to use: by simply pasting in a curl-bash script, it will automatically set up an app for you, including the complete infra and the software deployment.
 But over time, some annoyances surfaced:
-- It's **difficult to audit** the scripts.
+- It's **difficult to audit** the scripts yourself.
   While they are open-source, the contents of the scripts aren't laid out in front of you immediately.
   And every time we need to update, if we want to be vigilant, we have to look over the script again in addition to vetting the app itself.
   With the rise of supply-chain attacks, one must be more careful when handling updates, so this is a valid issue if we want to be err on the side of caution.
@@ -266,7 +265,7 @@ resources:
     nvidia.com/gpu: 1
 ```
 
-## Conclusion
+## Results
 
 By provisioning Talos VMs with OpenTofu and managing the apps with Kustomize templates and Helm charts along with several services to simplify the process, I successfully migrated all my app deployments to Kubernetes.
 This made it much easier to understand what the infrastructure looks like, by simply reading the various levels of IaC templates, and having Kubernetes makes the deployment more robust and scalable.
@@ -275,3 +274,7 @@ Not only this, IaC templates makes it feasible to use **coding agents** to manag
 While it's certainly not a good idea to use it for production, if you have a good review and backup strategy, coding agents can be used to quickly write templates for new apps.
 For example, I used OpenCode with GPT-5.5 to create the Kubernetes templates for Immich, and it was able to do so quickly and accurately with the help of linting tools.
 After deployment, the app worked identically as before, and it even managed to perform the database import successfully without intervention.
+
+In the future, the templates can be expanded to support multiple devices in a cluster.
+And the error-tolerant nature of Kubernetes makes failures rare, while being fairly straightforward to debug with `kubectl`.
+This is why I encourage everyone to learn how to use IaC tools like Terraform/OpenTofu and set up a Kubernetes cluster, even for self-hosted deployments.
