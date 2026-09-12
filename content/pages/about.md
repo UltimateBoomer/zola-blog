@@ -32,6 +32,14 @@ I've had the opportunity to work across various tech stacks in my co-ops:
 - **Jonsole** is a hardware project for the Jonsole desktop console. I wrote ESP32 firmware using FreeRTOS, along with a Tauri desktop app which enables connecting the hardware to CLI coding agents on a computer by bluetooth.
 - **Proxmox Server** is my self-hosted infrastructure for DNS, media streaming, file synchronization, game servers, Kubernetes workloads, and CUDA-accelerated local LLMs.
 
+### Hackathon projects
+
+- **[BailMeOut](https://github.com/cxc-2026-waterlose/BailMeOut)**, from CXC 2026, is a personal safety app built with React Native and Expo. It uses ElevenLabs for real-time transcription and Gemini for context analysis, triggering a simulated incoming call when it detects a threat or custom trigger word.
+
+### Machine learning
+
+- **[Attention-DQN RPS Agent](https://github.com/UltimateBoomer/attn-dqn-rps-agent)** is a RL model for repeated Rock–Paper–Scissors against a fixed pool of opponents. It uses multi-head attention to learn patterns in action histories and a Deep Q-Network with prioritized experience replay to adapt to a set of opponent strategies.
+
 ### Mathematical visualization
 
 - **Simple Fractal Viewer** is a C++ and OpenGL application that renders Mandelbrot sets in real time using GPU shaders, with interactive navigation.
