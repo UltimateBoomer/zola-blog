@@ -1,0 +1,11 @@
+[[project]]
+name = "Pixiverse"
+desc = "A multiplayer productivity-tracker game built with Godot and Nakama."
+tags = ["godot", "nakama", "multiplayer", "productivity"]
+links = []
+
+[[project]]
+name = "Jonsole"
+desc = "A desktop console with ESP32 firmware built on FreeRTOS and a Tauri app that connects the hardware to CLI coding agents over Bluetooth."
+tags = ["esp32", "freertos", "tauri", "hardware"]
+links = []
