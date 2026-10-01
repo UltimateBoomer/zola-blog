@@ -1,5 +1,5 @@
 +++
-title = "[Old] Optimizing Minecraft Java Runtime"
+title = "Optimizing Minecraft Java Runtime"
 description = "Testing different JREs and configurations for running Minecraft"
 date = "2021-01-12"
 [taxonomies]
@@ -18,7 +18,6 @@ In short, these are my recommended setups for Java Edition.
 #### High performance option - For systems that run Minecraft well already
 
 1. Download an [AdoptOpenJDK](https://adoptopenjdk.net/releases.html) JRE
-
 - Choose **OpenJDK 15**, and select **HotSpot** as the JVM
 - If your mods don't support Java 15, choose Java 11 instead
 - Download the zip version, there is no need to use the installer

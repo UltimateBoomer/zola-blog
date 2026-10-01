@@ -1,6 +1,6 @@
 +++
 title = "Self-hosting apps on Kubernetes with OpenTofu"
-description = "How I self-hosted a complete suite of apps on Kubernetes using a "
+description = "How I self-hosted a complete suite of apps on Kubernetes"
 date = "2026-06-01"
 [taxonomies]
 categories = ["Write-up"]
